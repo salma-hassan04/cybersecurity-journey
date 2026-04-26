@@ -26,3 +26,15 @@ Goal: Entry-level cybersecurity role
 - Lab Task: ss -tuln (Ubuntu) and netstat -an (Windows PowerShell), local IP, remote IP, port, and state (LISTEN, ESTABLISHED, etc)
 - What clicked: the difference between TCP and UDP, TCP 3-way handshake, well-known ports, TCP teardown
 - What confused me: open Gmail expecting to see ESTABLISHED connection in WSL2, but got nothing. Turns out Chrome runs on Windows, not inside WSL2, so its connections are invisible to the Linux ss command. had to run netstat -an on the Windows Powershell side instead, where I finally saw real ESTABLISHED connections all on port 443.
+
+## Day 5: 
+- Completed: HTTP, HTTPS & Application Protocols
+- Lab Task: I used Browser DevTools to watch HTTP requests on Wikipedia, where I encountered a 304 Not Modified response, gzip compression, a no-cache directive, and a DNT privacy header.
+- What clicked: GET, PUT, POST, DELETE, status code, the difference between HTTP and HTTPS, how TLS encryption secures connections, and how SSL certificates verify a website's identity. Application Protocols: SMTP for email, FTP for file transfer, SSH for encrypted remote access, and DHCP for automatic IP address assignment, including the full DORA process.
+- What confused me: memorizing the different types of acronyms for the application protocol
+
+  ## Day 6:
+  - Completed: Switches, Routers and Network Devices
+  - Lab Task: ran arp -a on Ubuntu, saw my actual ARP cache pointing to my Hyper-V virtual gateway, then ran traceroute google.com and watched my packets travel through my home router and deep into ISP's backbone network before hitting Google's infrastructure at around 34ms.
+  - What Clicked: Hubs, Switches,a nd routers and how each one handles traffic differently. how switches use MAC address tables to deliver frames only to the right device (Layer 2), while routers use IP addresses and routing tables to forward packets between different networks (Layer 3). how the default gateway acts as the exit door out of a local network.
+  - What confused: ARP, VLANs and Spanning Tree Protocol

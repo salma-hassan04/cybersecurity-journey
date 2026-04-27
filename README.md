@@ -38,3 +38,7 @@ Goal: Entry-level cybersecurity role
   - Lab Task: ran arp -a on Ubuntu, saw my actual ARP cache pointing to my Hyper-V virtual gateway, then ran traceroute google.com and watched my packets travel through my home router and deep into ISP's backbone network before hitting Google's infrastructure at around 34ms.
   - What Clicked: Hubs, Switches,a nd routers and how each one handles traffic differently. how switches use MAC address tables to deliver frames only to the right device (Layer 2), while routers use IP addresses and routing tables to forward packets between different networks (Layer 3). how the default gateway acts as the exit door out of a local network.
   - What confused: ARP, VLANs and Spanning Tree Protocol
+## DAY 7:
+- Completed: Wireshark
+- Lab Task: ran my first live packet capture on my Wi-Fi Interface. Filtered by dns and watched real-time DNS queries flying off my machine to Google and other background services, also tcp.port==443 and found the TLS handshake in the wild: spotted Client Hello packets with SNI, Change Cipher Spec, and Application Data rows
+What clicked: once encryption switches on, Wireshark can see the packet but cannot read inside them. The biggest insight today was realising my computer is constantly chattering on the network without me doing anything

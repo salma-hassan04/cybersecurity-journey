@@ -47,4 +47,23 @@ What clicked: once encryption switches on, Wireshark can see the packet but cann
 - Completed: Firewalls and Networking Security Devices
 - Lab Task: ran sudo iptables -L on Linux to read live firewall rules, manually wrote and applied a rule to accept TCP traffic on port 22, then flushed the table clean. Also explored Windows Defender Firewall's Advanced Settings, reading real inbound and outbound rules and identifying entries from installed apps
 - What clicked: stateful vs stateless firewalls, packet filtering, ACLs, next-generation firewalls with deep packet inspection, IDS vs IPS, UTMs.
-- What confused me: DMZs, network segementation and proxy servers
+- What confused me: DMZs, network segmentation, and proxy servers
+
+## Day 9:
+- Completed: VPNs & Encryption
+- Lab Tasks: used Wireshark to capture a live TLS 1.3 handshake with Spotify servers. Observed the Client Hello with 20 cipher suites and SNI extension, the Server Hello selecting TLS_AES_256_GCM_SHA384, the x25519 Diffie-Hellman key exchange, Change Cipher Spec, and finally fully encrypted application data that Wireshark could not decode. Watched PKI and TLS do their job in real time — every field from theory appeared live in the capture.
+- What clicked: symmetric (one shared key, fast but vulnerable to interception during sharing) and asymmetric (public/private key pair, solves the key distribution problem). Learned how VPNs work — tunneling, encapsulation, IPSec vs SSL/TLS VPN, split tunneling, and the difference between site-to-site and remote access VPNs. Studied digital certificates, Certificate Authorities, and PKI — understanding how the entire HTTPS trust system depends on CAs verifying that public keys genuinely belong to who they claim to. Walked through the TLS handshake step by step (Client Hello → Server 
+Hello → certificate verification → key exchange → encrypted session).
+
+## Day 10:
+Completed: Common Network Attacks
+Lab Task: Ongoing (Tasks 1–5 in progress, Tasks 6–9 remaining)
+What Clicked: ARP spoofing/poisoning, DNS spoofing, Man-in-the-Middle, DoS vs DDoS, SYN flood, VLAN hopping, packet sniffing, rogue access points, evil twin, and MAC flooding. 
+
+
+
+
+## Day 11:
+**Completed**: Wireless Networks & Security
+Lab Task: Performed a passive wireless scan of the local RF environment.
+What Clicked: 802.11 Standards, 2.4GHz vs 5GHz, WEP/WPA/WPA2/WPA3, SSID, BSSID, Authentication Modes, WPS Vulnerabilities, Evil Twin Attack, Captive Portals, RADIUS

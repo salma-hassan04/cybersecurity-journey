@@ -56,9 +56,9 @@ What clicked: once encryption switches on, Wireshark can see the packet but cann
 Hello → certificate verification → key exchange → encrypted session).
 
 ## Day 10:
-Completed: Common Network Attacks
-Lab Task: Ongoing (Tasks 1–5 in progress, Tasks 6–9 remaining)
-What Clicked: ARP spoofing/poisoning, DNS spoofing, Man-in-the-Middle, DoS vs DDoS, SYN flood, VLAN hopping, packet sniffing, rogue access points, evil twin, and MAC flooding. 
+- Completed: Common Network Attacks
+- Lab Task: TryHackMe Pre-Security Path (in progress)
+- What Clicked: ARP spoofing/poisoning, DNS spoofing, Man-in-the-Middle, DoS vs DDoS, SYN flood, VLAN hopping, packet sniffing, rogue access points, evil twin, and MAC flooding. 
 
 
 

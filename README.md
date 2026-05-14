@@ -61,9 +61,14 @@ Hello → certificate verification → key exchange → encrypted session).
 - What Clicked: ARP spoofing/poisoning, DNS spoofing, Man-in-the-Middle, DoS vs DDoS, SYN flood, VLAN hopping, packet sniffing, rogue access points, evil twin, and MAC flooding. 
 
 
-
-
 ## Day 11:
 **Completed**: Wireless Networks & Security
-Lab Task: Performed a passive wireless scan of the local RF environment.
-What Clicked: 802.11 Standards, 2.4GHz vs 5GHz, WEP/WPA/WPA2/WPA3, SSID, BSSID, Authentication Modes, WPS Vulnerabilities, Evil Twin Attack, Captive Portals, RADIUS
+- Lab Task: Performed a passive wireless scan of the local RF environment.
+- What Clicked: 802.11 Standards, 2.4GHz vs 5GHz, WEP/WPA/WPA2/WPA3, SSID, BSSID, Authentication Modes, WPS Vulnerabilities, Evil Twin Attack, Captive Portals, RADIUS
+
+## Day 12:
+- Completed: Network Monitoring & Log Analysis
+- Lab Task:
+    - Windows — Event Viewer: Opened Event Viewer and navigated to Windows Logs → Security. Filtered for Event IDs 4624 and 4625. Found 37,009 total security events on the machine; all visible events after filtering were Audit Success (4624). Clicked into an individual event and read the full details: Security ID SYSTEM, Logon Type 5 (Service), Computer SHM. Learned that SYSTEM and Logon Type 5 are normal Windows background activity — services authenticating automatically.
+    - Linux — Auth Log: Ran sudo cat /var/log/auth.log | tail -50 on an Ubuntu virtual machine. Read the output line by line: saw a successful session opened for user salma (uid=1000), systemd session creation, and, most interestingly, the sudo command itself being recorded in real time. The log captured the exact command we ran, the terminal session (TTY=pts/0), the working directory, and the fact that we temporarily acted as root. This demonstrated how sudo logging creates accountability and how attackers get caught: rm -rf /var/log in a sudo log entry means an attacker deleted evidence and the log caught it just before being wiped.
+- Topics: Syslog, SNMP, NetFlow, Log Formats, SIEM Basics, Alert Triage, Baseline vs Anomaly, Event IDs, Windows Security Logs, Linux Auth Logs

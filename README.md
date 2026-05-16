@@ -72,3 +72,17 @@ Hello → certificate verification → key exchange → encrypted session).
     - Windows — Event Viewer: Opened Event Viewer and navigated to Windows Logs → Security. Filtered for Event IDs 4624 and 4625. Found 37,009 total security events on the machine; all visible events after filtering were Audit Success (4624). Clicked into an individual event and read the full details: Security ID SYSTEM, Logon Type 5 (Service), Computer SHM. Learned that SYSTEM and Logon Type 5 are normal Windows background activity — services authenticating automatically.
     - Linux — Auth Log: Ran sudo cat /var/log/auth.log | tail -50 on an Ubuntu virtual machine. Read the output line by line: saw a successful session opened for user salma (uid=1000), systemd session creation, and, most interestingly, the sudo command itself being recorded in real time. The log captured the exact command we ran, the terminal session (TTY=pts/0), the working directory, and the fact that we temporarily acted as root. This demonstrated how sudo logging creates accountability and how attackers get caught: rm -rf /var/log in a sudo log entry means an attacker deleted evidence and the log caught it just before being wiped.
 - Topics: Syslog, SNMP, NetFlow, Log Formats, SIEM Basics, Alert Triage, Baseline vs Anomaly, Event IDs, Windows Security Logs, Linux Auth Logs
+
+
+## Day 13:
+- Completed: Network Troubleshooting Tools
+- Lab Task: run ping -c 4 8.8.8.8, traceroute 8.8.8.8, nslookup cloudflare.com, netstat -an, ip a
+- Topics:  ping, traceroute, nslookup, dig, netstat, nmap, ipconfig/ifconfig/ip a, curl, and telnet. each designed to answer a specific diagnostic question about a network or connection. 
+
+## Day 14:
+- Completed: Wireshark Deep Dive
+- Lab Task: Analysed three real .pcap files from Wireshark's official sample capture library.
+  1. In telnet-cooked.pcap, credentials (username: fake, password: user) were recovered directly from a TCP stream with no decryption required. The entire post-login session including commands run and files listed was readable in plain text, demonstrating exactly why Telnet is banned in any security-conscious environment.
+  2. In http.cap, an unencrypted 2004 browser session to www.ethereal.com was analysed. The full HTML source of the visited page was recoverable, and request headers revealed the user's OS (Windows XP), browser, and browsing history.
+  3. In arp-storm.pcap, 622 ARP packets all identical in size (60 bytes) were observed rapidly targeting dozens of different IP addresses without waiting for responses. A pattern consistent with either a denial-of-service flood or automated network reconnaissance.
+- Covered: four main interface panels (filter bar, packet list, packet details, and packet bytes), how to write display filters to narrow down traffic, and how to use Follow TCP Stream to reassemble entire conversations between two computers into a readable window. Protocol identification was covered in depth — understanding that protocols like Telnet, FTP, and HTTP send data in plaintext while HTTPS and SSH encrypt it, and knowing what attack patterns look like in captured traffic (ARP floods, port scans, credential exposure).

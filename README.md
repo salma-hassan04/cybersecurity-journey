@@ -91,23 +91,23 @@ Hello → certificate verification → key exchange → encrypted session).
 ## ISC2 CC -  DOMAIN 1: SECURITY PRINCIPLES
 - Completed: ISC2 CC Domain 1 in full
 - Topics covered:
- - CIA Triad (Confidentiality, Integrity, Availability)
- - Privacy & GDPR
- - PII and the Aggregation Problem
- - Introduction to Risk Management
- - Threats, Vulnerabilities & Likelihood
- - Risk in Our Lives
- - Protecting Information
- - Making Connections (CIA + real-world scenarios)
- - Privacy in the Working Environment (HIPAA, GDPR)
- - Risk Management Terminology (Asset, Vulnerability, Threat)
- - Decision Making Based on Risk Priorities
- - Importance of Risk Management
- - Importance of Governance Elements
- - Risk Identification
- - What are Security Controls (Physical, Technical, Administrative)
- - Code of Ethics — Theoretical Examples
- - Professional Code of Conduct & Canons
- - Authentication (3 Factors, MFA)
- - Governance Elements (Regulations, Standards, Policies, Procedures)
+   - CIA Triad (Confidentiality, Integrity, Availability)
+   - Privacy & GDPR
+   - PII and the Aggregation Problem
+   - Introduction to Risk Management
+   - Threats, Vulnerabilities & Likelihood
+   - Risk in Our Lives
+   - Protecting Information
+   - Making Connections (CIA + real-world scenarios)
+   - Privacy in the Working Environment (HIPAA, GDPR)
+   - Risk Management Terminology (Asset, Vulnerability, Threat)
+   - Decision Making Based on Risk Priorities
+   - Importance of Risk Management
+   - Importance of Governance Elements
+   - Risk Identification
+   - What are Security Controls (Physical, Technical, Administrative)
+   - Code of Ethics — Theoretical Examples
+   - Professional Code of Conduct & Canons
+   - Authentication (3 Factors, MFA)
+   - Governance Elements (Regulations, Standards, Policies, Procedures)
 - Weak Areas: Physical Controls (tangible hardware (walls/fences) vs processes), Risk transfer scenarios, CIA Triad confidence.

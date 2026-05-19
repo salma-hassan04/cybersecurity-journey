@@ -86,3 +86,28 @@ Hello → certificate verification → key exchange → encrypted session).
   2. In http.cap, an unencrypted 2004 browser session to www.ethereal.com was analysed. The full HTML source of the visited page was recoverable, and request headers revealed the user's OS (Windows XP), browser, and browsing history.
   3. In arp-storm.pcap, 622 ARP packets all identical in size (60 bytes) were observed rapidly targeting dozens of different IP addresses without waiting for responses. A pattern consistent with either a denial-of-service flood or automated network reconnaissance.
 - Covered: four main interface panels (filter bar, packet list, packet details, and packet bytes), how to write display filters to narrow down traffic, and how to use Follow TCP Stream to reassemble entire conversations between two computers into a readable window. Protocol identification was covered in depth — understanding that protocols like Telnet, FTP, and HTTP send data in plaintext while HTTPS and SSH encrypt it, and knowing what attack patterns look like in captured traffic (ARP floods, port scans, credential exposure).
+
+
+## ISC2 CC -  DOMAIN 1: SECURITY PRINCIPLES
+- Completed: ISC2 CC Domain 1 in full
+- Topics covered:
+ - CIA Triad (Confidentiality, Integrity, Availability)
+ - Privacy & GDPR
+ - PII and the Aggregation Problem
+ - Introduction to Risk Management
+ - Threats, Vulnerabilities & Likelihood
+ - Risk in Our Lives
+ - Protecting Information
+ - Making Connections (CIA + real-world scenarios)
+ - Privacy in the Working Environment (HIPAA, GDPR)
+ - Risk Management Terminology (Asset, Vulnerability, Threat)
+ - Decision Making Based on Risk Priorities
+ - Importance of Risk Management
+ - Importance of Governance Elements
+ - Risk Identification
+ - What are Security Controls (Physical, Technical, Administrative)
+ - Code of Ethics — Theoretical Examples
+ - Professional Code of Conduct & Canons
+ - Authentication (3 Factors, MFA)
+ - Governance Elements (Regulations, Standards, Policies, Procedures)
+- Weak Areas: Physical Controls (tangible hardware (walls/fences) vs processes), Risk transfer scenarios, CIA Triad confidence.

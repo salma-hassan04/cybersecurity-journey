@@ -89,6 +89,8 @@ Hello → certificate verification → key exchange → encrypted session).
 
 
 ## ISC2 CC -  DOMAIN 1: SECURITY PRINCIPLES
+Date: May 19, 2026
+
 - Completed: ISC2 CC Domain 1 in full
 - Topics covered:
    - CIA Triad (Confidentiality, Integrity, Availability)
@@ -113,6 +115,8 @@ Hello → certificate verification → key exchange → encrypted session).
 - Weak Areas: Physical Controls (tangible hardware (walls/fences) vs processes), Risk transfer scenarios, CIA Triad confidence.
 
 ## ISC2 CC - DOMAIN 2: INCIDENT RESPONSE, BC & DR
+Date: May 21, 2026
+
 - Key Topics covered:
     - Incident Terminology (Event, Incident, Breach, Exploit, Intrusion, Threat, Vulnerability and Zero Day)
     - IR / BC / DR Relationship
@@ -121,6 +125,8 @@ Hello → certificate verification → key exchange → encrypted session).
 - Weak Area: Red Book question: the defining feature is location (outside the facility), not the content (procedures). The exam tests why, not what.
 
 ## ISC2 CC - DOMAIN 3: ACCESS CONTROL CONCEPTS
+Date: May 26, 2026
+
 - Key Topics Covered
     - Security Controls & Access Elements
     - Defense in Depth

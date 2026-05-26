@@ -111,3 +111,24 @@ Hello → certificate verification → key exchange → encrypted session).
    - Authentication (3 Factors, MFA)
    - Governance Elements (Regulations, Standards, Policies, Procedures)
 - Weak Areas: Physical Controls (tangible hardware (walls/fences) vs processes), Risk transfer scenarios, CIA Triad confidence.
+
+## ISC2 CC - DOMAIN 2: INCIDENT RESPONSE, BC & DR
+- Key Topics covered:
+    - Incident Terminology (Event, Incident, Breach, Exploit, Intrusion, Threat, Vulnerability and Zero Day)
+    - IR / BC / DR Relationship
+    - Business Continuity
+    - Disaster Recovery
+- Weak Area: Red Book question: the defining feature is location (outside the facility), not the content (procedures). The exam tests why, not what.
+
+## ISC2 CC - DOMAIN 3: ACCESS CONTROL CONCEPTS
+- Key Topics Covered
+    - Security Controls & Access Elements
+    - Defense in Depth
+    - Physical vs Logical Controls
+    - Least Privilege
+    - Controls and Risks
+    - RBAC
+    - PAM & Just-in-Time Access
+    - Privileged Accounts
+    - Monitoring
+ - Weak Area: Static admin = always on = maximum blast radius if compromised and JIT = privileges activate only for the specific task being performed

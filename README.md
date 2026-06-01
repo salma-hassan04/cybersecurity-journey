@@ -138,3 +138,25 @@ Date: May 26, 2026
     - Privileged Accounts
     - Monitoring
  - Weak Area: Static admin = always on = maximum blast radius if compromised and JIT = privileges activate only for the specific task being performed
+
+## ISC2 CC - DOMAIN 4 - NETWORK SECURITY
+Date: June 1, 2026
+
+- Key Topics Covered:
+  - Networking basics
+  - LAN/WAN
+  - Network devices
+  - Ethernet/MAC/IP
+  - Network topology
+  - WiFi security
+  - Microsegmentation
+  - IDS/IPS/SIEM
+  - Preventing threats
+  - DMZ
+  - VPN
+  - TCP/IP attacks
+  - Three-way handshake
+  - Redundancy
+  - Cloud models (SaaS/PaaS/IaaS)
+  - MSP/MDR
+- Weak Area: APT vs polymorphic toolsets: Polymorphic toolsets are the weapon; microsegmentation protects against Advanced Persistent Threats (APT) — the question asks what is protected against, not what enables the attack

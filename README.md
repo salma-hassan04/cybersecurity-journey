@@ -160,3 +160,19 @@ Date: June 1, 2026
   - Cloud models (SaaS/PaaS/IaaS)
   - MSP/MDR
 - Weak Area: APT vs polymorphic toolsets: Polymorphic toolsets are the weapon; microsegmentation protects against Advanced Persistent Threats (APT) — the question asks what is protected against, not what enables the attack
+
+## ISC2 CC - DOMAIN 5 - SECURITY OPERATION
+Date: June 3, 2026
+
+Key Topics Covered:
+  - Data Handling & Lifecycle
+  - Data Handling Best Practices
+  - Security Awareness Training
+  - Password Security & Hashing
+  - Data Security Event Logging
+  - Encryption Overview & Deep Dive
+  - Hashing Deep Dive
+  - Common Security Policies
+  - Phishing Attacks
+  - Change Management
+Areas to watch: distinguish symmetric vs asymmetric in scenario questions;  phishing type definitions (especially whaling vs spear phishing)

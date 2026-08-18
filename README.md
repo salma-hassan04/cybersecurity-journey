@@ -176,3 +176,90 @@ Key Topics Covered:
   - Phishing Attacks
   - Change Management
 Areas to watch: distinguish symmetric vs asymmetric in scenario questions;  phishing type definitions (especially whaling vs spear phishing)
+
+
+## ISC2 CC -  EXAM [TO BE DONE]
+
+
+## COMPTIA SECURITY+
+_DOMAIN 1 - GENERAL SECURITY CONCEPTS_
+Date: 18th July 2026
+1. Security Controls: _Technical Controls, Managerial Controls, Operational Controls, Physical Controls_
+2. Control Type: _Preventive, Deterrent, Detective, Corrective, Compensating, Directive_
+
+Date: 19th July 2026
+1. The CIA Triad
+2. Non-Repudiation
+
+Date: 20th July 2026
+1. Authentication, Authorization and Accounting
+2. Gap Analysis
+3. Zero Trust
+4. Physical Security
+5. Detection and Disruption
+6. Change Management
+
+Date: 05th August 2026
+- Public Key Infrastructure
+- Encrypting Data
+- Key Exchange
+
+Date: 06th August 2026
+- Encryption Technologies
+- Obfuscation
+- Hashing
+
+Date: 12th August 2026
+- Digital Signature
+- Blockchain Technology
+
+_DOMAIN 2 - THREATS, VULNERABILITIES AND MITIGATION_
+Date: 12th August 2026
+- Threat Actors
+
+## GOOGLE CYBERSECURITY CERTIFICATION
+_COURSE 1 - FOUNDATIONS OF CYBERSECURITY_
+Date: 19th July  2026
+MODULE 1: Introduction to Cybersecurity
+
+Date: 20th July 2026
+MODULE 2: THE EVOLUTION OF CYBERSECURITY
+
+Date: 21th July 2026
+Continuing Module 2: The Evolution of Cybersecurity: 
+- THE EIGHT CISSP SECURITY DOMAINS
+- ATTACK TYPES
+- UNDERSTANDING ATTACKERS
+
+Date: 11th August 2026
+_MODULE 3: PROTECT AGAINST THREATS, RISKS, AND VULNERABILITIES_
+1. Frameworks and controls
+
+Date: 12th August 2026
+Continuing Module 
+- Ethics in Cybersecurity
+
+Date: 13th August 2026
+_MODULE 4: CYBERSECURITY TOOLS AND PROGRAMMING TOOLS_
+- Important Cybersecurity Tools
+
+Date: 14th August 2026
+Continuing Module 4
+- Core Cybersecurity Knowledge and Skills
+
+**TRYHACKME: LINUX FUNDAMENTAL PART 1**
+Date: 19th July 2026
+- Echo
+- whoami
+- ls
+- cd
+- cat
+- pwd
+- find
+
+Date: 20th July 2026
+- grep
+- &
+- &&
+- >
+- >>

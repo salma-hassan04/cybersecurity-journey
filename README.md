@@ -178,7 +178,9 @@ Key Topics Covered:
 Areas to watch: distinguish symmetric vs asymmetric in scenario questions;  phishing type definitions (especially whaling vs spear phishing)
 
 
-## ISC2 CC -  EXAM [TO BE DONE]
+## ISC2 CC EXAM - PASSED (10 Nov 2026)
+- Exam: 10 Nov 2026, Pearson Professional Centre, Westlands. Provisional pass at the desk, confirmed by ISC2 on the 11th.
+- Certified: 16 Nov 2026. Credly link.
 
 
 ## COMPTIA SECURITY+
@@ -263,3 +265,11 @@ Date: 20th July 2026
 - &&
 - >
 - >>
+
+## CATCH-UP — 14 Aug to 16 Nov 2026
+- Finished Google Course 1 (certified). Started Course 2, at Module 2.
+- Security+: Domains 1 and 2 complete, Domain 1 quizzed, Domain 3 started.
+- LabEx: Quick Start with Linux (10 labs), 5 of 10 Junior Sysadmin labs.
+- Two weeks lost to illness in August.
+- CC exam outline changed 1 Sept — re-mapped revision to the new domains.
+- Sat ISC2 CC on 10 Nov. Passed. Certified 16 Nov.

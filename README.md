@@ -278,5 +278,5 @@ Date: 20th July 2026
 - 17 Nov: Domain 1 cold recall 17/25. Crypto 3/7 — the gap. Change management 1/3.
 - 18–19 Nov: Google Course 2 Modules 2–4.
 - Attempted Domain 1 lab (build a CA) — didn't land; brain wasn't working. Re-scoped to GPG signing first, lab moved to a morning slot.
-- 24 Nov: Google Course 2 complete (certified). Applied for Course 3 aid.
+- 24 Nov: Messer Domain 3 — secure infrastructure, intrusion prevention, network appliances (3.2). Google Course 2 complete, Course 3 aid applied. Timetable and calendar updated — Friday labs scheduled through 22 Jan.
 - Next: GPG signing lab tomorrow 9am. Friday: Wireshark / SOC session.

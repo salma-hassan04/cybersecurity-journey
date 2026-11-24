@@ -273,3 +273,10 @@ Date: 20th July 2026
 - Two weeks lost to illness in August.
 - CC exam outline changed 1 Sept — re-mapped revision to the new domains.
 - Sat ISC2 CC on 10 Nov. Passed. Certified 16 Nov.
+
+## 17–24 Nov 2026
+- 17 Nov: Domain 1 cold recall 17/25. Crypto 3/7 — the gap. Change management 1/3.
+- 18–19 Nov: Google Course 2 Modules 2–4.
+- Attempted Domain 1 lab (build a CA) — didn't land; brain wasn't working. Re-scoped to GPG signing first, lab moved to a morning slot.
+- 24 Nov: Google Course 2 complete (certified). Applied for Course 3 aid.
+- Next: GPG signing lab tomorrow 9am. Friday: Wireshark / SOC session.

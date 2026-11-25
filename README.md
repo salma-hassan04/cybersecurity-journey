@@ -280,3 +280,11 @@ Date: 20th July 2026
 - Attempted Domain 1 lab (build a CA) — didn't land; brain wasn't working. Re-scoped to GPG signing first, lab moved to a morning slot.
 - 24 Nov: Messer Domain 3 — secure infrastructure, intrusion prevention, network appliances (3.2). Google Course 2 complete, Course 3 aid applied. Timetable and calendar updated — Friday labs scheduled through 22 Jan.
 - Next: GPG signing lab tomorrow 9am. Friday: Wireshark / SOC session.
+
+## 25 Nov: 
+- Messer 3.2 finished (secure comms, VPN, SD-WAN, SASE).
+- GPG signing lab done:
+  - first projects/ write-up.
+  - Signature stays 119 bytes whether the file is 26 bytes or 270 KB: you sign the hash, not the file.
+  - One-character edit → BAD signature.
+  - Private key signs, public key verifies — finally physical, not memorised.

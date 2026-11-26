@@ -288,3 +288,12 @@ Date: 20th July 2026
   - Signature stays 119 bytes whether the file is 26 bytes or 270 KB: you sign the hash, not the file.
   - One-character edit → BAD signature.
   - Private key signs, public key verifies — finally physical, not memorised.
+
+## 26 Nov: 
+- Quizzed 3.1 and 3.2 cold.
+- Domain 2 cold recall 14/20:
+    - all six misses were boundaries drilled to 100% in October, decay not confusion
+    - every one had the deciding phrase in the stem and I read past it.
+    - Re-drilled the six: 10/10.
+    - Fix going forward: name the deciding phrase before looking at the options.
+    - Spaced re-check next Wednesday.

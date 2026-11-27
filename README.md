@@ -297,3 +297,8 @@ Date: 20th July 2026
     - Re-drilled the six: 10/10.
     - Fix going forward: name the deciding phrase before looking at the options.
     - Spaced re-check next Wednesday.
+
+## 27 Nov: 
+- First Wireshark lab: triaged a short office capture as a Kilele Pay ticket.
+- Identified a host doing network reconnaissance and three services sending credentials in plain text.
+- Lesson: a scan and a flood look nothing alike once you know what each is trying to do.
